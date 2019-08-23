@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	id = "com.app.readytoplaygolfcom"
+	version = "2.0.0">
+	<name>Ready To pLay Golf</name>
+	<description>Find A Golf Partner</description>
+	<author href="ReadyToPlayGolf.com" email="Your email">Jim Lafferty </author>
+	<preference name="phonegap-version"       value="cli-6.3.0" />
+	<preference name="permissions" value="none"/>
+	<preference name="android-build-tool" value="gradle"/>
+    <preference name="orientation"                value="default" />
+    <preference name="fullscreen"                 value="true" />
+	<preference name="android-installLocation"    value="auto" />
+	<preference name="DisallowOverscroll" value="true"/>
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-splashscreen" />
+	<plugin name="cordova-plugin-device" />
+	<preference name="Splash.png"               value="splash" />
+	<preference name="AutoHideSplashScreen"       value="true" />
+	<preference name="SplashScreenDelay"          value="5000" />
+	<preference name="SplashMaintainAspectRatio"  value="true" />
+	<preference name="FadeSplashScreen"           value="true"/>
+	<preference name="ShowSplashScreenSpinner"    value="false" />
+	<platform name="android">
+    <icon src="Icon.png" />
+    <splash src="Splash.png" />
+	</platform>
+	
+	
+	<allow-navigation href="https://readytoplaygolf.com/appstart/?theme=app*" />
+	
+</widget>
